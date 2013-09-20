@@ -9566,14 +9566,14 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
      *  - Observes for paste and drop
      */
     _initParser: function() {
-      this.on("paste:composer", function() {
-        var keepScrollPosition  = true,
-            that                = this;
-        that.composer.selection.executeAndRestore(function() {
-          wysihtml5.quirks.cleanPastedHTML(that.composer.element);
-          that.parse(that.composer.element);
-        }, keepScrollPosition);
-      });
+      // this.on("paste:composer", function() {
+      //   var keepScrollPosition  = true,
+      //       that                = this;
+      //   that.composer.selection.executeAndRestore(function() {
+      //     wysihtml5.quirks.cleanPastedHTML(that.composer.element);
+      //     that.parse(that.composer.element);
+      //   }, keepScrollPosition);
+      // });
     }
   });
 })(wysihtml5);
