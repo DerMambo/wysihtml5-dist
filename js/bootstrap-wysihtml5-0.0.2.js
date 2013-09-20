@@ -431,7 +431,7 @@
                     }
                 },
                 "span": 1,
-                "div": 1
+                "div": 1,
             }
         },
         stylesheets: ["/vendor/bootstrap-wysihtml5-master/lib/css/wysiwyg-color.css"], // (path_to_project/lib/css/wysiwyg-color.css)
