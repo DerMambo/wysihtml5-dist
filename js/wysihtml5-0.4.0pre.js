@@ -4753,7 +4753,7 @@ wysihtml5.dom.observe = function(element, eventNames, handler) {
  *    // => '<p class="red">foo</p><p>bar</p>'
  */
 wysihtml5.dom.parse = (function() {
-  
+  return; // disable sanitization
   /**
    * It's not possible to use a XMLParser/DOMParser as HTML5 is not always well-formed XML
    * new DOMParser().parseFromString('<img src="foo.gif">') will cause a parseError since the
