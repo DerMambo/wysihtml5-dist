@@ -35,8 +35,16 @@
                   "</div>" +
                 "</li>",
             "highlightCode":
-                "<li>"+
-                    "<a class='btn btn-default' data-wysihtml5-command='highlightCode'>Code</a>" +
+                "<li>" +
+                  "<div class='btn-group'>" +
+                    "<a class='btn btn-default dropdown-toggle' data-iron-router-ignore='true' data-toggle='dropdown' href='#'>" +
+                      "Code&nbsp;<b class='caret'></b>" +
+                    "</a>" +
+                    "<ul class='dropdown-menu'>" +
+                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[CODE][/CODE]'>Code</a></li>" +
+                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[MARKUP][/MARKUP]'>Markup</a></li>" +
+                    "</ul>" +
+                  "</div>" +
                 "</li>",
             "lists":
                 "<li>" +
