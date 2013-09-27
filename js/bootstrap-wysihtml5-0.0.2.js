@@ -41,8 +41,8 @@
                       "Code&nbsp;<b class='caret'></b>" +
                     "</a>" +
                     "<ul class='dropdown-menu'>" +
-                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[CODE]\r\npaste code here\r\n[/CODE]'>Code</a></li>" +
-                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[MARKUP]\r\npaste code here\r\n[/MARKUP]'>Markup</a></li>" +
+                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[CODE]&lt;br&gt;paste code here&lt;br&gt;[/CODE]'>Code</a></li>" +
+                      "<li><a data-wysihtml5-command='insertHTML' data-wysihtml5-command-value='[MARKUP]&lt;br&gt;paste code here&lt;br&gt;[/MARKUP]'>Markup</a></li>" +
                     "</ul>" +
                   "</div>" +
                 "</li>",
