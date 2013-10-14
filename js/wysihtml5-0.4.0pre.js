@@ -4805,7 +4805,7 @@ wysihtml5.dom.parse = (function() {
     
     // Insert new DOM tree
     element.appendChild(fragment);
-    
+    return elementOrHtml //turn off parser//  isString ? wysihtml5.quirks.getCorrectInnerHTML(element) : element;
     return isString ? wysihtml5.quirks.getCorrectInnerHTML(element) : element;
   }
   
