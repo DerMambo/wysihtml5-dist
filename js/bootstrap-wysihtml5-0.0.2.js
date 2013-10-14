@@ -7,7 +7,7 @@
             "font-styles":
                 "<li>" +
                   "<div class='btn-group'>" +
-                    "<a class='btn btn-default dropdown-toggle' data-iron-router-ignore='true' data-toggle='dropdown' href='#'>" +
+                    "<a class='btn btn-default dropdown-toggle' data-iron-router-ignore='true' data-toggle='dropdown'>" +
                     "<span class='glyphicon glyphicon-font'></i>&nbsp;<span class='current-font'>" + locale.font_styles.normal + "</span>&nbsp;<b class='caret'></b>" +
                     "</a>" +
                     "<ul class='dropdown-menu'>" +
@@ -37,7 +37,7 @@
             "highlightCode":
                 "<li>" +
                   "<div class='btn-group'>" +
-                    "<a class='btn btn-default dropdown-toggle' data-iron-router-ignore='true' data-toggle='dropdown' href='#'>" +
+                    "<a class='btn btn-default dropdown-toggle' data-iron-router-ignore='true' data-toggle='dropdown'>" +
                       "Code&nbsp;<b class='caret'></b>" +
                     "</a>" +
                     "<ul class='dropdown-menu'>" +
@@ -97,9 +97,12 @@
                   //       "</div>" +
                   //   "</div>" +
                   // "</div>" +
-                  "<a class='btn btn-default insert-image' data-toggle='modal' href='#image-selection-modal' data-wysihtml5-command='insertImage' title='" + locale.image.insert + "'><span class='glyphicon glyphicon-picture'></span></a>" +
+                  "<a class='btn btn-default insert-image' data-toggle='modal' data-wysihtml5-command='insertImage' title='" + locale.image.insert + "'><span class='glyphicon glyphicon-picture'></span></a>" +
                 "</li>",
-
+            "video":
+                "<li>" +
+                    "<a class='btn btn-default insert-video' data-toggle='modal' data-wysihtml5-command='insertVideo' title='" + locale.video.insert + "'><span class='glyphicon glyphicon-film'></span></a>" +
+                "</li>",
             "html":
                 "<li>" +
                   "<div class='btn-group'>" +
@@ -476,6 +479,10 @@
             },
             image: {
                 insert: "Insert image",
+                cancel: "Cancel"
+            },
+            video: {
+                insert: "Insert video",
                 cancel: "Cancel"
             },
             html: {
