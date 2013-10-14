@@ -389,6 +389,7 @@
         "html": false,
         "link": true,
         "image": true,
+        "video": true,
         "free": true,
         "highlightCode": true,
         events: {},
